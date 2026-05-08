@@ -28,7 +28,7 @@ SX1262 radio = new Module(LORA_NSS_PIN, LORA_DIO1_PIN, LORA_RST_PIN, LORA_BUSY_P
 
 // Target baud rate for GPS after configuration.
 // MAX-M10S supports 9600 / 38400 / 115200.
-// 38400 is a safe middle ground — fast enough for 5 Hz, reliable on long wires.
+
 #define GPS_BAUD_TARGET 9600
 
 HardwareSerial GPSSerial(1);
