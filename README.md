@@ -13,9 +13,7 @@ The system transmits GPS position, barometric altitude, relative altitude, verti
 ├── telemetry_transmitter_drone2.ino   # Drone 2 firmware (GPS only)
 ├── telemetry_receiver.ino             # Receiver firmware (LoRa → USB serial)
 ├── main.py                            # Python ground station GUI
-└── hardware/
-    ├── drone1_pcb/                    # Altium Designer project for Drone 1 PCB
-    └── gerbers/                       # Exported Gerbers for manufacture
+└── hardware/                          # Altium Designer project for Drone 1 PCB
 ```
 
 ---
